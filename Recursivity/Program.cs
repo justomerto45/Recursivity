@@ -6,7 +6,7 @@ class FileSystemAnalyzer
     static void Main(string[] args)
     {
         // pfad zum testverzeichnis
-        string path = @"C:\Users\Can Mert\Desktop\Test";
+        string path = @"C:\Users\Can Mert\Desktop\Test";    // eigenen pfad eingeben um zu testen
 
         // ruft AnalyzeDirectory auf um das verzeichnis zu analysieren
         var result = AnalyzeDirectory(path);
