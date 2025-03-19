@@ -1,37 +1,36 @@
 # Recursivity
 
-Dieses Repository enthält ein C#-Projekt zur Demonstration von Rekursionstechniken. Es bietet verschiedene Beispiele und Implementierungen rekursiver Algorithmen.
+This repository contains a C# project demonstrating recursion techniques. It provides various examples and implementations of recursive algorithms.
 
-## Projektbeschreibung
-Das Projekt zeigt, wie Rekursion in C# genutzt werden kann, um Probleme effizient zu lösen. Es umfasst verschiedene rekursive Methoden, darunter:
-- Analyse der Anzahl von Dateien und Verzeichnissen innerhalb eines Ordners
-- Berechnung der Gesamtgröße eines Verzeichnisses
-- Rekursive Visualisierung der Ordnerstruktur
+## Project Description
+The project illustrates how recursion can be utilized in C# to solve problems efficiently. It includes various recursive methods, such as:
+- Analyzing the number of files and directories within a folder
+- Calculating the total size of a directory
+- Recursively visualizing the folder structure
 
-Die Hauptklasse `FileSystemAnalyzer` analysiert rekursiv ein Verzeichnis und gibt die Ergebnisse in der Konsole aus.
+The main class `FileSystemAnalyzer` recursively analyzes a directory and displays the results in the console.
 
-## Technologie-Stack
-- Programmiersprache: C#
+## Technology Stack
+- Programming Language: C#
 - Framework: .NET
-- Verwendete Klassen: `System.IO.Directory`, `System.IO.FileInfo`
+- Used Classes: `System.IO.Directory`, `System.IO.FileInfo`
 
 ## Installation
-1. Repository klonen:
+1. Clone the repository:
    ```bash
    git clone https://github.com/justomerto45/Recursivity.git
    ```
-2. Projekt in Visual Studio öffnen.
-3. Pfad in der Variable `path` anpassen, um ein eigenes Verzeichnis zu analysieren.
-4. Anwendung kompilieren und ausführen.
+2. Open the project in Visual Studio.
+3. Modify the `path` variable to specify the directory you want to analyze.
+4. Compile and run the application.
 
-## Verwendung
-- Das Programm gibt die Anzahl der Dateien und Verzeichnisse sowie die Gesamtgröße eines Verzeichnisses aus.
-- Es visualisiert zudem die Ordnerstruktur in einer baumartigen Darstellung.
-- Um das Programm zu testen, den Pfad im Code anpassen.
+## Usage
+- The program outputs the number of files and directories, as well as the total size of a directory.
+- It also visualizes the folder structure in a tree-like format.
+- To test the program, adjust the path in the code accordingly.
 
-## Beitrag leisten
-Pull Requests und Vorschläge sind willkommen. Forke das Repository und erstelle einen Branch für deine Änderungen.
+## Contributing
+Pull requests and suggestions are welcome. Fork the repository and create a branch for your changes.
 
-## Lizenz
-Dieses Projekt ist unter der MIT-Lizenz lizenziert.
-
+## License
+This project is licensed under the MIT License.
